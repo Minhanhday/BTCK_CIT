@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vòng tay cao cấp chất liệu tốt, thiết kế tinh tế - Lựa chọn hoàn hảo để thể hiện phong cách cá nhân">
+  <title>Vòng Tay Cao Cấp - Sản Phẩm</title>
+  <link rel="stylesheet" href="sp.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-links">
+          <a href="#"><span class="icon phone-icon"></span> 0901.234.567</a>
+          <a href="#"><span class="icon email-icon"></span> info@vongtaycaocap.com</a>
+        </div>
+      </div>
+    </div>
+    <nav class="container main-nav">
+      <div class="logo">
+        <a href="TrangChu.html">VÒNG TAY <span>CAO CẤP</span></a>
+      </div>      
+      <div class="nav-right">
+        <!-- Search Bar -->
+<!-- Thanh tìm kiếm -->
+<div class="search-container">
+  <input type="text" placeholder="Tìm kiếm vòng tay...">
+  <button class="search-icon">
+    <i class="fas fa-search"></i>
+  </button>
+</div>
+
+<!-- User + Giỏ hàng -->
+<div class="user-actions">
+  <a href="#"><i class="fas fa-user"></i></a>
+  <div id="cart-icon">
+    <i class="fas fa-shopping-cart"></i>
+    <span id="cart-count">0</span>
+  </div>
+</div>
+
+        <button class="menu-toggle"><span class="icon menu-icon"></span></button>
+      </div>
+      <ul class="nav-menu">
+        <li class="active"><a href="TrangChu.html">Trang chủ</a></li>
+        <li><a href="SanPham.html">Sản phẩm</a></li>
+        <li><a href="Khac.html">Khắc Thông Điệp</a></li>
+        <li><a href="LienHe.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Breadcrumb -->
+  <section class="breadcrumb">
+    <div class="container">
+      <ul>
+        <li><a href="TrangChu.html">Trang chủ</a></li>
+        <li>Sản phẩm</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <main class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h1>Bộ Sưu Tập Vòng Tay</h1>
+        <p class="section-description">Những chiếc vòng tay được chế tác thủ công từ chất liệu cao cấp, kết hợp với các charms tinh xảo để thể hiện cá tính riêng của bạn.</p>
+      </div>
+      <div class="banner">
+        <img src="CAT-VongTay-1200x450.jpg" alt="Banner Bộ Sưu Tập Vòng Tay">
+      </div>
+      
+      <div class="products-filter">
+        <div class="filter-left">
+          <label for="sort">Sắp xếp theo:</label>
+          <select id="sort">
+            <option>Phổ biến nhất</option>
+            <option>Mới nhất</option>
+            <option>Giá: Thấp đến Cao</option>
+            <option>Giá: Cao đến Thấp</option>
+            <option>Đánh giá cao nhất</option>
+          </select>
+          
+          <label for="filter">Lọc theo:</label>
+          <select id="filter">
+            <option>Tất cả sản phẩm</option>
+            <option>Vòng bạc</option>
+            <option>Vòng da</option>
+            <option>Vòng charm</option>
+            <option>Vòng đá quý</option>
+          </select>
+        </div>
+        <div class="filter-right">
+          <span class="results-count">135 sản phẩm</span>
+        </div>
+      </div>
+      
+      <div id="product-list" class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-badge discount">-20%</div>
+          <div class="product-image">
+            <img src="vong-tay-menh-kim-dep.jpg" alt="Vòng tay mềm cao cấp">
+            <div class="product-actions">
+              <button class="quick-view"><span class="icon eye-icon"></span> Xem nhanh</button>
+              <button class="add-to-cart"><span class="icon cart-icon-sm"></span> Thêm vào giỏ</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Vòng Tay Mềm Charm Bạc</h3>
+            <div class="price">
+              <span class="current-price">1.250.000₫</span>
+              <span class="old-price">1.560.000₫</span>
+            </div>
+            <div class="product-meta">
+              <span class="rating"><span class="icon star-icon"></span> 4.9 (128)</span>
+              <button class="favorite"><span class="icon heart-icon"></span></button>
+            </div>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-badge new">Mới</div>
+          <div class="product-image">
+            <img src="dây da.webp" alt="Vòng tay dây da cao cấp">
+            <div class="product-actions">
+              <button class="quick-view"><span class="icon eye-icon"></span> Xem nhanh</button>
+              <button class="add-to-cart"><span class="icon cart-icon-sm"></span> Thêm vào giỏ</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Vòng Tay Dây Da Charm Bạc</h3>
+            <div class="price">
+              <span class="current-price">950.000₫</span>
+            </div>
+            <div class="product-meta">
+              <span class="rating"><span class="icon star-icon"></span> 4.8 (95)</span>
+              <button class="favorite"><span class="icon heart-icon"></span></button>
+            </div>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-badge bestseller">Bán chạy</div>
+          <div class="product-image">
+            <img src="lắc tay đính đá.png" alt="Vòng tay đinh đá cao cấp">
+            <div class="product-actions">
+              <button class="quick-view"><span class="icon eye-icon"></span> Xem nhanh</button>
+              <button class="add-to-cart"><span class="icon cart-icon-sm"></span> Thêm vào giỏ</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Vòng Tay Đinh Đá Phong Thủy</h3>
+            <div class="price">
+              <span class="current-price">1.850.000₫</span>
+            </div>
+            <div class="product-meta">
+              <span class="rating"><span class="icon star-icon"></span> 5.0 (210)</span>
+              <button class="favorite"><span class="icon heart-icon"></span></button>
+            </div>
+          </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a" alt="Vòng tay kính cao cấp">
+            <div class="product-actions">
+              <button class="quick-view"><span class="icon eye-icon"></span> Xem nhanh</button>
+              <button class="add-to-cart"><span class="icon cart-icon-sm"></span> Thêm vào giỏ</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Vòng Tay Kính Sapphire</h3>
+            <div class="price">
+              <span class="current-price">2.450.000₫</span>
+            </div>
+            <div class="product-meta">
+              <span class="rating"><span class="icon star-icon"></span> 4.7 (87)</span>
+              <button class="favorite"><span class="icon heart-icon"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      <div class="pagination">
+        <a href="#" class="page-nav disabled"><span class="icon arrow-left"></span></a>
+        <a href="#" class="page-number active">1</a>
+        <a href="#" class="page-number">2</a>
+        <a href="#" class="page-number">3</a>
+        <span class="page-number">...</span>
+        <a href="#" class="page-number">6</a>
+        <a href="#" class="page-nav"><span class="icon arrow-right"></span></a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h3>Đăng ký nhận bản tin</h3>
+        <p>Nhận thông tin về sản phẩm mới và ưu đãi đặc biệt</p>
+      </div>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Nhập email của bạn">
+        <button type="submit">Đăng ký <span class="icon send-icon"></span></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col about-col">
+          <h4>Về chúng tôi</h4>
+          <p>Vòng Tay Cao Cấp chuyên cung cấp những sản phẩm vòng tay chất lượng cao, thiết kế tinh tế, mang đến sự sang trọng và cá tính cho người dùng.</p>
+          <div class="social-links">
+            <a href="#"><span class="icon fb-icon"></span></a>
+            <a href="#"><span class="icon ig-icon"></span></a>
+            <a href="#"><span class="icon yt-icon"></span></a>
+            <a href="#"><span class="icon pin-icon"></span></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Thông tin</h4>
+          <ul>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Chính sách bảo mật</a></li>
+            <li><a href="#">Điều khoản dịch vụ</a></li>
+            <li><a href="#">Chính sách đổi trả</a></li>
+            <li><a href="#">Hướng dẫn mua hàng</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Hỗ trợ</h4>
+          <ul>
+            <li><a href="#">Trung tâm hỗ trợ</a></li>
+            <li><a href="#">Kiểm tra đơn hàng</a></li>
+            <li><a href="#">Câu hỏi thường gặp</a></li>
+            <li><a href="#">Liên hệ</a></li>
+            <li><a href="#">Bảo hành</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col contact-col">
+          <h4>Liên hệ</h4>
+          <ul>
+            <li><span class="icon location-icon"></span> 123 Đường ABC, Quận 1, TP.HCM</li>
+            <li><span class="icon phone-icon"></span> 0901.234.567</li>
+            <li><span class="icon email-icon"></span> info@vongtaycaocap.com</li>
+            <li><span class="icon clock-icon"></span> Mở cửa: 8:30 - 21:00 hàng ngày</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 <strong>Vòng Tay Cao Cấp</strong>. All rights reserved.</p>
+        <div class="payment-methods">
+          <span class="payment-icon visa"></span>
+          <span class="payment-icon mastercard"></span>
+          <span class="payment-icon jcb"></span>
+          <span class="payment-icon cod"></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" title="Lên đầu trang"><span class="icon arrow-up"></span></button>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>

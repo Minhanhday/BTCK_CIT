@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khắc thông điệp cá nhân hóa trên vòng tay cao cấp - Tạo dấu ấn riêng với thiết kế tinh tế">
+  <title>Khắc Thông Điệp - Vòng Tay Cao Cấp</title>
+  <link rel="stylesheet" href="khac.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-links">
+          <a href="#"><span class="icon phone-icon"></span> 0901.234.567</a>
+          <a href="#"><span class="icon email-icon"></span> info@vongtaycaocap.com</a>
+        </div>
+      </div>
+    </div>
+    <nav class="container main-nav">
+      <div class="logo">
+        <a href="TrangChu.html">VÒNG TAY <span>CAO CẤP</span></a>
+      </div>      
+      <div class="nav-right">
+        <!-- Search Bar -->
+<!-- Thanh tìm kiếm -->
+<div class="search-container">
+  <input type="text" placeholder="Tìm kiếm vòng tay...">
+  <button class="search-icon">
+    <i class="fas fa-search"></i>
+  </button>
+</div>
+
+<!-- User + Giỏ hàng -->
+<div class="user-actions">
+  <a href="#"><i class="fas fa-user"></i></a>
+  <div id="cart-icon">
+    <i class="fas fa-shopping-cart"></i>
+    <span id="cart-count">0</span>
+  </div>
+</div>
+
+        <button class="menu-toggle"><span class="icon menu-icon"></span></button>
+      </div>
+      <ul class="nav-menu">
+        <li class="active"><a href="TrangChu.html">Trang chủ</a></li>
+        <li><a href="SanPham.html">Sản phẩm</a></li>
+        <li><a href="Khac.html">Khắc Thông Điệp</a></li>
+        <li><a href="LienHe.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Breadcrumb -->
+  <section class="breadcrumb">
+    <div class="container">
+      <ul>
+        <li><a href="TrangChu.html">Trang chủ</a></li>
+        <li>Khắc Thông Điệp</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Engrave Section -->
+  <section class="engrave-section">
+    <div class="container">
+      <div class="banner">
+        <img src="khắc.webp" alt="Khắc Charm Xinh Lưu Cảm Xúc">
+        <div class="banner-text">
+          <h1>KHẮC CHARM XINH LƯU CẢM XÚC</h1>
+          <p>Trải nghiệm ngay</p>
+        </div>
+      </div>
+      <div class="section-header">
+        <h1>HƯỚNG DẪN TRẢI NGHIỆM DỊCH VỤ KHẮC SẢN PHẨM</h1>
+      </div>
+      <div class="engrave-steps">
+        <!-- Step 1 -->
+        <div class="step">
+          <h2>BƯỚC 1</h2>
+          <p>Chọn sản phẩm để khắc</p>
+          <div class="step-content">
+            <select id="product-select" class="product-select">
+              <option value="">Chọn sản phẩm...</option>
+              <option value="lock-charm">Charm Khóa</option>
+              <option value="heart-charm">Charm Trái Tim</option>
+              <option value="round-charm">Charm Tròn</option>
+            </select>
+            <div class="charms-display">
+              <img src="vong-tay-menh-kim-dep.jpg" alt="Charm Khóa">
+              <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d" alt="Charm Trái Tim">
+              <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a" alt="Charm Tròn">
+            </div>
+          </div>
+        </div>
+        <!-- Step 2 -->
+        <div class="step">
+          <h2>BƯỚC 2</h2>
+          <p>Cá nhân hóa với thông điệp, phong chữ và biểu tượng</p>
+          <div class="step-content">
+            <form id="engrave-form">
+              <div class="form-group">
+                <label for="engrave-message">Thông Điệp</label>
+                <input type="text" id="engrave-message" maxlength="15" placeholder="Nhập thông điệp..." required>
+                <p id="engrave-error" class="error-message" style="display: none;">Vui lòng chỉ sử dụng chữ cái, số và khoảng trắng!</p>
+              </div>
+              <div class="form-group">
+                <label for="font-select">Phông Chữ</label>
+                <select id="font-select">
+                  <option value="font1">Font 1</option>
+                  <option value="font2">Font 2</option>
+                  <option value="font3">Font 3</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Biểu Tượng</label>
+                <div class="symbols">
+                  <span class="symbol">❤️</span>
+                  <span class="symbol">🌹</span>
+                  <span class="symbol">☀️</span>
+                  <span class="symbol">⭐</span>
+                  <span class="symbol">🌙</span>
+                  <span class="symbol">🐦</span>
+                  <span class="symbol">🐾</span>
+                  <span class="symbol">🖐️</span>
+                  <span class="symbol">🍀</span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Step 3 -->
+        <div class="step">
+          <h2>BƯỚC 3</h2>
+          <p>Xem trước và mua ngay</p>
+          <div class="step-content">
+            <div class="engrave-preview">
+              <img src="index.jpg" alt="Vòng tay khắc mẫu">
+              <p id="preview-text">Xem trước thông điệp của bạn...</p>
+            </div>
+            <button class="btn primary-btn"><span class="icon cart-icon-sm"></span> Thêm vào giỏ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h3>Đăng ký nhận bản tin</h3>
+        <p>Nhận thông tin về sản phẩm mới và ưu đãi đặc biệt</p>
+      </div>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Nhập email của bạn">
+        <button type="submit">Đăng ký <span class="icon send-icon"></span></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col about-col">
+          <h4>Về chúng tôi</h4>
+          <p>Vòng Tay Cao Cấp chuyên cung cấp những sản phẩm vòng tay chất lượng cao, thiết kế tinh tế, mang đến sự sang trọng và cá tính cho người dùng.</p>
+          <div class="social-links">
+            <a href="#"><span class="icon fb-icon"></span></a>
+            <a href="#"><span class="icon ig-icon"></span></a>
+            <a href="#"><span class="icon yt-icon"></span></a>
+            <a href="#"><span class="icon pin-icon"></span></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Thông tin</h4>
+          <ul>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Chính sách bảo mật</a></li>
+            <li><a href="#">Điều khoản dịch vụ</a></li>
+            <li><a href="#">Chính sách đổi trả</a></li>
+            <li><a href="#">Hướng dẫn mua hàng</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hỗ trợ</h4>
+          <ul>
+            <li><a href="#">Trung tâm hỗ trợ</a></li>
+            <li><a href="#">Kiểm tra đơn hàng</a></li>
+            <li><a href="#">Câu hỏi thường gặp</a></li>
+            <li><a href="#">Liên hệ</a></li>
+            <li><a href="#">Bảo hành</a></li>
+          </ul>
+        </div>
+        <div class="footer-col contact-col">
+          <h4>Liên hệ</h4>
+          <ul>
+            <li><span class="icon location-icon"></span> 123 Đường ABC, Quận 1, TP.HCM</li>
+            <li><span class="icon phone-icon"></span> 0901.234.567</li>
+            <li><span class="icon email-icon"></span> info@vongtaycaocap.com</li>
+            <li><span class="icon clock-icon"></span> Mở cửa: 8:30 - 21:00 hàng ngày</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 <strong>Vòng Tay Cao Cấp</strong>. All rights reserved.</p>
+        <div class="payment-methods">
+          <span class="payment-icon visa"></span>
+          <span class="payment-icon mastercard"></span>
+          <span class="payment-icon jcb"></span>
+          <span class="payment-icon cod"></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" title="Lên đầu trang"><span class="icon arrow-up"></span></button>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>
